@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form method="post" action="http://www.deitel.com">
+        <p><label>Name:
+            <input name="name" type="text" size="25">
+        </label></p>
+        <p><label>E-mail Address:
+             <input name="email" type="password" size="25">
+        </label></p>
+        <details>
+            <summary>Optional survey question</summary>
+            <p>
+                <strong>Which year are you in?</strong><br>
+                <label>Freshman
+                    <input name="which year" type="radio"
+                           value="1st" checked></label>
+                <label>Sophomore
+                    <input name="which year" type="radio"
+                           value="2nd"></label>
+                <label>Junior
+                    <input name="which year" type="radio"
+                           value="3rd"></label>
+                <label>Senior
+                    <input name="which year" type="radio"
+                           value="4th"></label>
+                <label>Graduate
+                    <input name="which year" type="radio"
+                           value="other"></label>
+            </p>
+            </details>
+        <p>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Clear">
+        </p>
+
+    </form>
+</body>
+</html>

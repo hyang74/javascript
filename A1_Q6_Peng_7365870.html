@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form method="post" autocomplete="on">
+        <p>
+            <label>Anything?
+                <input type="text" id="anything"
+                placeholder="interesting things"/>(Anything)
+            </label>
+        </p>
+        <p>
+            <label for="belowlist">Day of Weeks:
+                <input type="text" id="belowlist"
+                placeholder="select a day" list="days"/>
+                <datalist id="days">
+                    <option value="Monday">
+                    <option value="Tuesday">
+                    <option value="Wednesday">
+                    <option value="Thursday">
+                    <option value="Friday">
+                    <option value="Saturday">
+                    <option value="Sunday">
+                </datalist>
+
+            </label>
+        </p>
+        <p>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Clear">
+        </p>
+    </form>
+</body>
+</html>
