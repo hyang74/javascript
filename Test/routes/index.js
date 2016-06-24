@@ -117,8 +117,7 @@ router.post('/signup/check_email_exists', function(req, result, next) {
   var email = req.body.email;
   //Go in to the database
   var decision = true;
-
-
+ 
   db.moviedb.users.where("email=$1", [email], function(err, res) {
     console.log(email);
     console.log($1);

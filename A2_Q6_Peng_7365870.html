@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Multiple program</title>
+    <script>
+
+        var aNumber; // first string entered by user
+        var number1; // first number to add
+        var check=0;
+        while (check==0) {
+            // read in first number from user as a string
+
+            aNumber = window.prompt("Enter a five digit integer");
+            var int_length=aNumber.length;
+            // convert numbers from strings to integers
+            number1 = parseInt(aNumber);
+            if(int_length==5&&!isNaN(aNumber))
+                    check=1;
+            else
+                    alert("Please reenter a new integer:")
+        }
+        var rev=0,dig=0,number=0;
+        while(number1>0)
+        {
+            dig=number1%10;
+            rev=rev*10+dig;
+            number=number1/10;
+            number1=parseInt(number,10);
+        }
+        if(rev==aNumber)
+            document.writeln("<h1>"+rev+" is a palindrome.</h1>");
+        else
+            document.writeln("<h1>"+aNumber+" is not a palindrome.</h1>");
+
+    </script>
+</head>
+
+<body>
+
+</body>
+</html>

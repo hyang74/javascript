@@ -1,0 +1,22 @@
+
+ul li{
+    display:inline;
+}
+
+li a{
+    display: block;
+    float:left;
+    color: #000000;
+    background-color: #99ffcc;
+    text-decoration: none;
+
+    border: 5px solid #bbb;
+
+}
+
+li a:hover {
+    background-color: #555555;
+    color: white;
+    border:none;
+}
+

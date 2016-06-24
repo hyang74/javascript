@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Multiple program</title>
+    <script>
+
+        var firstNumber; // first string entered by user
+        var secondNumber; // second string entered by user
+        var number1; // first number to add
+        var number2; // second number to add
+
+        // read in first number from user as a string
+        firstNumber = window.prompt( "Enter first integer" );
+
+        // read in second number from user as a string
+        secondNumber = window.prompt( "Enter second integer" );
+
+        // convert numbers from strings to integers
+        number1 = parseInt( firstNumber );
+        number2 = parseInt( secondNumber );
+
+        sum = number1 + number2; // add the numbers
+        if(number1%number2==0)
+            // display the results
+            document.writeln( "<h1>The " + number1 + " is a multiple of the "+number2+".</h1>" );
+
+        else
+            document.writeln("<h1>The first number is not a multiple of the second number.</h1>");
+
+    </script>
+</head>
+
+<body>
+
+</body>
+</html>
