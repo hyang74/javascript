@@ -1,0 +1,22 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "test for interaction",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kylepeng123/javascript.git"
+  },
+  "keywords": [
+    "fun"
+  ],
+  "author": "me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kylepeng123/javascript/issues"
+  },
+  "homepage": "https://github.com/kylepeng123/javascript#readme"
+}
